@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Generate a secure random password with ease. Never use an unsecure password again.">
+    <link rel="stylesheet" href="index.css">
+    <title>Random Password Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="main-container">
+    <header>
+        <h1 id="main-heading">Generate a</h1>
+        <h2 id="sub-heading">random password</h2>
+        <p id="description">Never use an insecure password again.</p>
+    </header>
+    <main>
+        <button id="generate-passwords-btn" onclick="generateRandomPasswords()">Generate passwords</button>
+        <hr>
+        <section id="passwor-display-section">
+            <input type="text" class="random-passwords" id="random-password-1" value="" readonly>
+            <input type="text" class="random-passwords" id="random-password-2" value="" readonly>
+        </section>
+    </main>
+    </div>
+    <script src="index.js"></script>
+ </script>   
+</body>
+</html>
